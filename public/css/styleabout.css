@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif; 
+}
+body{
+    background-color: rgb(223, 223, 223);
+}
+.section{
+    width: 100%;
+    
+    
+}
+.section .container{
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    padding: 50px 0px;
+    
+}
+.container .title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container .title h1{
+    font-size: 50px;
+    color: black;
+}
+.content{
+    float: right;
+    width: 55%;
+}
+.image-section{
+    float: left;
+    width: 40%;
+    
+   
+}
+.image-section img{
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+}
+.content .article h3{
+    color: gray;
+    font-size: 25px;
+    margin-top: 20px;
+}
+h3{
+    text-indent: 50px;
+}
+.vision{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+.vision .btn-service .btn1, .btn2, .btn3, .btn4{
+   background: #576D3A;
+   color:#fff;
+   font-size: 25px;
+   border-radius: 5px;
+   padding: 10px;
+   display: inline-block;
+   text-decoration: none;
+   margin: 25px;
+   
+  
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif; 
+}
+body{
+    background-color:#dedede;
+}
+.formcontainer{
+    width: 50%;
+    margin: 50px auto;
+    background-color:#fff;
+    padding: 60px 30px 30px 30px;
+    border-radius: 5px;
+}
+.formcontainer h1{
+    font-size: 40px;
+    color:rgb(56, 119, 56);
+    text-align: center;
+}
+label{
+    width: 100%;
+    height: 25px;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: left;
+}
+select {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    font-size: 18px;
+}
+input[type=text]{
+    width: 100%;
+    height: 25px;
+    text-align: left;
+    font-size: 18px;
+}
+input[type=date]{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    font-size: 18px;
+}
+input[type=time]{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    font-size: 18px;
+}
+.formcontainer .btn{
+    margin:20px auto; 
+    display:block;
+    
+}
